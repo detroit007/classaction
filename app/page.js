@@ -1,13 +1,18 @@
+import { Companies } from '@/components/pages/Companies/page'
+import { HeroSection } from '@/components/pages/HeroSection/page'
+import { PartnerSection } from '@/components/pages/PartnerSection/page'
+import { SecondHero } from '@/components/pages/SecondHero/page'
+import { SkillSection } from '@/components/pages/SkillSection/page'
 import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className='flex justify-center items-center h-screen'>
-      <img alt="logo"
-        src="/assets/images/bg_gradiant.png" width="180" height="30" decoding="async"
-        data-nimg="1" loading="lazy" style={{color: "transparent"}}
-        className="w-full"
-      />
+    <div className='container mx-auto'>
+      <HeroSection/>
+      <Companies/>
+      <SecondHero/>
+      <SkillSection/>
+      <PartnerSection/>
     </div>
   )
 }

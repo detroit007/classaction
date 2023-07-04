@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -16,12 +20,53 @@
   }
 }
 
-/* body {
-  color: rgb(var(--foreground-rgb));
+/* body { */
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
-} */
+    rgb(var(--background-start-rgb)); */
+/* } */
+
+@keyframes scrollBuyer {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-445px * 6.7)); }
+}
+
+.buyer-slider-home {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  
+}
+
+.buyer-slide-home::before,
+.buyer-slide-home::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  z-index: 2;
+}
+
+.buyer-slide-home::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(90deg);
+}
+
+.buyer-slide-home::before {
+  left: 0;
+  top: 0;
+}
+
+.buyer-slide-track-home {
+  animation: scrollBuyer 50s linear infinite;
+  display: flex;
+  width: calc(200px * 50);
+}
+
+.buyer-slide-home {
+  width: 200px;
+}
