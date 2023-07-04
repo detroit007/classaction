@@ -46,7 +46,7 @@
 .buyer-slide-home::after {
   content: "";
   position: absolute;
-  width: 100px;
+  width: 200px;
   z-index: 2;
 }
 
@@ -62,11 +62,11 @@
 }
 
 .buyer-slide-track-home {
-  animation: scrollBuyer 50s linear infinite;
+  animation: scrollBuyer 25s linear infinite;
   display: flex;
-  width: calc(200px * 50);
+  width: calc(300px * 50);
 }
 
 .buyer-slide-home {
-  width: 200px;
+  width: 300px;
 }

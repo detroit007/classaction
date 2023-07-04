@@ -7,7 +7,7 @@ import { images } from "@/utils/skillData";
 
 export function SkillSection(){
     return (
-      <div className="">
+      <div className="mt-16">
         
        <h1 className="font-teko text-4xl font-semibold text-center">ACADEMICS, THE ARTS, DIGITAL,LIFE, MUSIC, PARENTING, SPORTS & WELLNESS SKILLS.</h1>
        {/* {
