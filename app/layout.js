@@ -3,6 +3,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import localFont from 'next/font/local'
 import Image from 'next/image'
+import { Footer } from '@/components/Footer/page'
 
 const inter = Inter({ subsets: ['latin'] })
 const Comfortaa = localFont({
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
       <body className={`${Comfortaa.variable} ${Teko.variable}`}>
         <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   )

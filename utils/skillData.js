@@ -8,3 +8,9 @@ export const images = [
     "/assets/images/skills/expert.png",
 
 ]
+
+export const quotes = [
+    "/assets/images/quotes/first.png",
+    "/assets/images/quotes/second.png",
+    "/assets/images/quotes/third.png",
+]
