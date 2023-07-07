@@ -17,8 +17,8 @@ export default function About(){
         </div>
         <div className=" container mx-auto flex justify-center -mt-48">
                 <div className=" grid grid-cols-3 gap-2 ">
-                    {directors.map(item=>
-                        <img alt="logo"
+                    {directors.map((item, i)=>
+                        <img alt="logo" key={i}
                             src={item} decoding="async"
                             data-nimg="1" loading="lazy"
                             className="w-96 items-center object-contain pt-20"
@@ -33,7 +33,7 @@ export default function About(){
                 <div className={`grid grid-cols-3 justify-center`}>
                 {/* <div className={`flex justify-center items-center flex-col`}> */}
                     {advisors.map((item, i)=>
-                        <div className={`${i === advisors.length - 1 ? 'center' : ''}`}>
+                        <div className={`${i === advisors.length - 1 ? 'center' : ''}`} key={i}>
                             <img alt=""
                                 src={item} decoding="async"
                                 data-nimg="1" loading="lazy"

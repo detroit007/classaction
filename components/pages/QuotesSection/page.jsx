@@ -9,7 +9,7 @@ export function QuotesSection(){
        <div className="carousel mt-16" dir='ltr'>
           <div className="carousel-inner">
             { [...quotes, ...quotes, ...quotes]?.map((item, i) => (
-                <div className="carousel-item">
+                <div className="carousel-item" key={i}>
                   <img
                     key={i}
                     // className={` max-w-70 md:max-w-80 mix-blend-multiply mx-auto`}
