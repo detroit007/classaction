@@ -15,7 +15,7 @@ export function SecondHero(){
         <div className="mt-8 md:mt-0 w-full md:w-2/5 p-16">
             <h1 className="text-4xl font-bold font-teko mb-4">An all-round learning experience!</h1>
             <p className="font-comfortaa text-lg">
-                Ignite your child's imagination with an engaging, fun online course, featuring captivating, gamified learning, accessible anytime, anywhere.
+                Ignite your child{`&#39;`}s imagination with an engaging, fun online course, featuring captivating, gamified learning, accessible anytime, anywhere.
                 <br/>
                 <br/>
                 Personalised feedback, course recommendations and improvement plans ensure continuous progress.
