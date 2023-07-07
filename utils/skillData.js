@@ -31,3 +31,14 @@ export const advisors = [
     "",
     "/assets/images/advisors/kevin.png",
 ]
+
+export const skills = [
+    "/assets/images/creator_page/academic.png",
+    "/assets/images/creator_page/art.png",
+    "/assets/images/creator_page/digital.png",
+    "/assets/images/creator_page/life.png",
+    "/assets/images/creator_page/music.png",
+    "/assets/images/creator_page/parenting.png",
+    "/assets/images/creator_page/sports.png",
+    "/assets/images/creator_page/wellbeing.png",
+]

@@ -19,7 +19,7 @@ export function Footer(){
                         <Link className="p-2 lg:px-4 hover:text-primary" href={"/#students"} >
                             STUDENTS
                         </Link>
-                        <Link className="p-2 lg:px-4 hover:text-primary" href={"#"}>
+                        <Link className="p-2 lg:px-4 hover:text-primary" href={"/course-creators"}>
                             COURSE CREATORS
                         </Link>
                         <Link className="p-2 lg:px-4 hover:text-primary" href={"/About"}>
