@@ -9,7 +9,7 @@ export function Navbar(){
           <Link href={"#"}><img src="/assets/images/classaction_logo.png" className="w-12" /></Link>
           <div className="flex">
             <div className="flex mr-8 text-sm md:text-base text-center">
-                <Link className="p-2 lg:px-4 hover:text-primary" href={"#"}>
+                <Link className="p-2 lg:px-4 hover:text-primary" href={"/"}>
                     HOME
                 </Link>
                 <Link className="p-2 lg:px-4 hover:text-primary" scroll={false} href={"/#students"}>
