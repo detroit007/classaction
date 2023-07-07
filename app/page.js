@@ -9,7 +9,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <>
+    <div className='scroll-smooth'>
     <div className='container mx-auto'>
       <HeroSection/>
       <Companies/>
@@ -21,6 +21,6 @@ export default function Home() {
       <div className='container mx-auto'>
         <QuotesSection/>
       </div>
-    </>
+    </div>
   )
 }

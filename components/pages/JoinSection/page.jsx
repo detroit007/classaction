@@ -2,7 +2,7 @@ import { Button } from "@/components/Button/page";
 
 export function JoinSection(){
     return (
-        <div className="w-full mt-16 h-96 bg-cover" style={{backgroundImage: "url(/assets/images/bg_gradiant.png)"}}>
+        <div id="students" className="w-full mt-16 h-96 bg-cover" style={{backgroundImage: "url(/assets/images/bg_gradiant.png)"}}>
             <div className="container mx-auto">
 
                 <img alt="logo"

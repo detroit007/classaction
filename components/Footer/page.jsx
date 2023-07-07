@@ -16,13 +16,13 @@ export function Footer(){
                         <Link className="p-2 lg:px-4 hover:text-primary" href={"#"}>
                             HOME
                         </Link>
-                        <Link className="p-2 lg:px-4 hover:text-primary" href={"#"}>
+                        <Link className="p-2 lg:px-4 hover:text-primary" href={"/#students"} >
                             STUDENTS
                         </Link>
                         <Link className="p-2 lg:px-4 hover:text-primary" href={"#"}>
                             COURSE CREATORS
                         </Link>
-                        <Link className="p-2 lg:px-4 hover:text-primary" href={"#"}>
+                        <Link className="p-2 lg:px-4 hover:text-primary" href={"/About"}>
                             ABOUT US
                         </Link>
                         <Link className="p-2 lg:px-4 hover:text-primary" href={"#"}>
@@ -34,7 +34,7 @@ export function Footer(){
                     <div className="absolute right-0 bottom-2">
                         <p className="font-comfortaa">Get the fresh news for us</p>
                         <div className="flex mt-4 w-96"> 
-                            <input type="email" className="bg-gray-50 border border-[#bfbfbf4f] rounded-md mr-4 text-sm block w-full pl-2 p-2.5 " placeholder="email" required=""/>
+                            <input type="email" className="border border-[#bfbfbf4f] rounded-md mr-4 text-sm w-full pl-2 p-2 focus:divide-primary" placeholder="email"/>
                             <ButtonGradiant title={"Subscribe"} className={"w-40 rounded-md"}/>
                         </div>
                     </div>
@@ -44,18 +44,18 @@ export function Footer(){
 
             <div className="block md:flex justify-between font-comfortaa text-xs py-8 border-t border-[#bfbfbf4f] border-grey">
             <div className="flex">
-                <Link className="lg:px-4 border-r h-4" href={"#"}>
+                {/* <Link className="lg:px-4 border-r h-4" href={"#"}>
                     Terms & Conditions
-                </Link>
-                <Link className="lg:px-4 border-r h-4" href={"#"}>
+                </Link> */}
+                <Link className="lg:px-4" href={"#"}>
                     Privacy Policy
                 </Link>
-                <Link className="lg:px-4 border-r h-4" href={"#"}>
+                {/* <Link className="lg:px-4 border-r h-4" href={"#"}>
                     Accessibility
                 </Link>
                 <Link className="lg:px-4 border-r h-4" href={"#"}>
                     Legal
-                </Link>
+                </Link> */}
             </div>
             <p >Design with love © Class Action Education 2023. All rights reserved</p>
         </div>

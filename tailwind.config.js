@@ -14,8 +14,8 @@ module.exports = {
       },
     },
     colors: {
-      primary: "#fc3374",
-      secondary: "#fc7252",
+      primary: "#FD2979",
+      secondary: "#FA7B4D",
       white: "#ffffff",
       black: "#000000"
     },
@@ -25,8 +25,8 @@ module.exports = {
     },
     textColor: {
       transparent: "transparent",
-      primary: "#fc3374",
-      secondary: "#fc7252",
+      primary: "#FD2979",
+      secondary: "#FA7B4D",
       white: "#ffffff",
       black: "#000000"
     }

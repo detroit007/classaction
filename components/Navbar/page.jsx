@@ -12,13 +12,13 @@ export function Navbar(){
                 <Link className="p-2 lg:px-4 hover:text-primary" href={"#"}>
                     HOME
                 </Link>
-                <Link className="p-2 lg:px-4 hover:text-primary" href={"#"}>
+                <Link className="p-2 lg:px-4 hover:text-primary" scroll={false} href={"/#students"}>
                     STUDENTS
                 </Link>
                 <Link className="p-2 lg:px-4 hover:text-primary" href={"#"}>
                     COURSE CREATORS
                 </Link>
-                <Link className="p-2 lg:px-4 hover:text-primary" href={"#"}>
+                <Link className="p-2 lg:px-4 hover:text-primary" href={"/About"}>
                     ABOUT US
                 </Link>
                 <Link className="p-2 lg:px-4 hover:text-primary" href={"#"}>
