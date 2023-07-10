@@ -1,7 +1,4 @@
-import { Button } from "@/components/Button/page";
-import Link from "next/link";
-import { HiPlusSm } from "react-icons/hi";
-
+import { ButtonGradiant } from "@/components/ButtonGradiant/page";
 
 export default function Creators() {
     return(
@@ -37,9 +34,8 @@ export default function Creators() {
                     <textarea type="text" value="" placeholder="Type your message here..." className="w-full h-24 p-2 rounded-lg border-2 border-[#efeded] focus:outline-none focus:ring-0 hover:border-primary focus:border-primary" />
                 </div>
                 <div className="flex flex-col items-center mt-8">
-                    <Button className={"bg-black text-white p-2 rounded-full px-12"} title={"submit"}  />
+                    <ButtonGradiant className={"bg-black text-white p-2 rounded-full px-12"} title={"submit"}  />
                 </div>
-                {/* <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button> */}
             </form>
             </div>
             </div>
