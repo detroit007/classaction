@@ -40,7 +40,7 @@ export default function Creators() {
                 </div>
 
                     <div className="mt-4">
-                        <label for="confirm_password" className="block mb-2 text-sm font-medium text-gray-900 ">Social media links (for our team's reference only and will not be published on the site)</label>
+                        <label for="confirm_password" className="block mb-2 text-sm font-medium text-gray-900 ">Social media links (for our team{`&#39;`}s reference only and will not be published on the site)</label>
                         <textarea type="text" value="" className="w-full h-16 p-2 rounded-lg border-2 border-[#efeded] focus:outline-none focus:ring-0 hover:border-primary focus:border-primary" />
                     </div>
 
