@@ -4,7 +4,7 @@ import { HiPlusSm } from "react-icons/hi";
 
 export default function Creators() {
     return(
-        <div className="bg-white">
+        <div className="">
         <div className="container mx-auto flex justify-center">
             <div className="w-4/5 my-16 pb-16 bg-slate-100 border border-gray-200 rounded-lg shadow ">
             <div className="flex justify-center py-10">

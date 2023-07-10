@@ -15,7 +15,7 @@ export function PartnerSection(){
             </p>
             {/* <p className="text-primary mt-6">More...</p> */}
         </div>
-        <div className="w-full md:w-3/5 flex md:mt-0 mt-24 md:mx-24">
+        <div className="w-full md:w-2/5 flex md:mt-0 mt-24 md:mx-24">
             <img alt="logo"
                 src="/assets/images/partners.png" decoding="async"
                 data-nimg="1" loading="lazy"
