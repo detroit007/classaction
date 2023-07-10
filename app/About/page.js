@@ -37,7 +37,7 @@ export default function About(){
                             <img alt=""
                                 src={item} decoding="async"
                                 data-nimg="1" loading="lazy"
-                                className="w-96 object-contain pt-8"
+                                className="w-96 object-contain"
                             />
                         </div>
                     )}

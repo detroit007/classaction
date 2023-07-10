@@ -42,3 +42,12 @@ export const skills = [
     "/assets/images/creator_page/sports.png",
     "/assets/images/creator_page/wellbeing.png",
 ]
+
+export const companies = [
+    "/assets/images/companies/department-for-international-trade.webp",
+    "/assets/images/companies/innovate uk transparent.png",
+    "/assets/images/companies/HuffPost_edited.webp",
+    "/assets/images/companies/TELEGRAPH.webp",
+    "/assets/images/companies/The_Times_logo.webp",
+    "/assets/images/companies/school-report-logo.webp"
+]

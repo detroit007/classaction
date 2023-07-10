@@ -14,10 +14,10 @@ export default function Home() {
       <HeroSection/>
       <Companies/>
       <SecondHero/>
-      <SkillSection/>
+      <div id="students"><SkillSection/></div>
       <PartnerSection/>
     </div>
-      <div id="students"><JoinSection/></div>
+      <JoinSection/>
       <div className='container mx-auto'>
         <QuotesSection/>
       </div>
