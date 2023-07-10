@@ -6,7 +6,8 @@ import { skills } from "@/utils/skillData";
 export default function Createos(){
     // <main className="relative">
     return (
-        <main className="bg-cover transparent w-full h-full" style={{backgroundImage: "url(/assets/images/creator_page/creator_bg.png)"}}> 
+        <main>
+        <main className="bg-cover transparent w-full h-full pb-16" style={{backgroundImage: "url(/assets/images/creator_page/creator_bg.png)"}}> 
             <div className="block md:flex container mx-auto">
                 <div className="pt-24 w-full md:w-2/5 ">
                     {/* <h2 className="font-teko text-4xl bg-gradient-to-r from-primary to-secondary text-transparent bg-clip-text animate-gradient"> */}
@@ -41,6 +42,7 @@ export default function Createos(){
                     />
                 </div>
             </div>
+        </main>
             <div className="w-full flex flex-col items-center mt-8">
                 <img alt="logo"
                     src="/assets/images/creator_page/create.png" decoding="async"
