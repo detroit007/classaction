@@ -25,7 +25,7 @@ export function Footer(){
                         <Link className="p-2 lg:px-4 hover:text-primary" href={"/About"}>
                             ABOUT US
                         </Link>
-                        <Link className="p-2 lg:px-4 hover:text-primary" href={"#"}>
+                        <Link className="p-2 lg:px-4 hover:text-primary" href={"/contact"}>
                             CONTACT
                         </Link>
                     </div>

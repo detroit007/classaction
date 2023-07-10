@@ -21,7 +21,7 @@ export function Navbar(){
                 <Link className="p-2 lg:px-4 hover:text-primary" href={"/About"}>
                     ABOUT US
                 </Link>
-                <Link className="p-2 lg:px-4 hover:text-primary" href={"#"}>
+                <Link className="p-2 lg:px-4 hover:text-primary" href={"/contact"}>
                     CONTACT
                 </Link>
             </div>
@@ -35,7 +35,7 @@ export function Navbar(){
             /> */}
             </div>
             {/* <FiShoppingCart size={30} /> */}
-            <Button className={"px-6 rounded-3xl text-sm text-white bg-gradient-to-r from-primary to-secondary"} title={"SIGN UP"} />
+            <Link href={"/#students"} className="h-10 w-28"><Button className={"px-6 rounded-3xl text-sm h-10 text-white bg-gradient-to-r from-primary to-secondary"} title={"SIGN UP"} /></Link>
           </div>
         </div>
         <img src={"/assets/images/rainbow.png"} className="w-full h-2 mt-4" />

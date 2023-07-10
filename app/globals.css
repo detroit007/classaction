@@ -21,7 +21,7 @@
 
 html {
   scroll-behavior: smooth !important;
-  scroll-padding-top: 80px;
+  /* scroll-padding-top: 80px; */
 }
 
 /* body { */

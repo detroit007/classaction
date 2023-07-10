@@ -17,7 +17,7 @@ export default function Home() {
       <SkillSection/>
       <PartnerSection/>
     </div>
-      <JoinSection/>
+      <div id="students"><JoinSection/></div>
       <div className='container mx-auto'>
         <QuotesSection/>
       </div>
