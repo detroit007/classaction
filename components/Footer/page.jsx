@@ -34,7 +34,7 @@ export function Footer(){
                     <div className="absolute right-0 bottom-2">
                         <p className="font-comfortaa">Get the fresh news for us</p>
                         <div className="flex mt-4 w-96"> 
-                            <input type="email" className="border border-[#bfbfbf4f] rounded-md mr-4 text-sm w-full pl-2 p-2 focus:divide-primary" placeholder="email"/>
+                            <input type="email" className="border-2 border-[#efeded] focus:outline-none focus:ring-0 hover:border-primary focus:border-primary rounded-md mr-4 text-sm w-full pl-2 p-2 focus:divide-primary" placeholder="email"/>
                             <ButtonGradiant title={"Subscribe"} className={"w-40 rounded-md"}/>
                         </div>
                     </div>
